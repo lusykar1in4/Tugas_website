@@ -1,8 +1,16 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+li, ul {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: linear-gradient(180deg, #180745 0.05%, #000 99.95%);
+    background: linear-gradient(180deg, #0F0425 0.05%, #1B0745 50%, #000 99.95%);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 ul li a {
@@ -13,7 +21,35 @@ ul li a {
 }
 
 .text1 {
-    color: #7757e8;
+    color: #7757E8;
+}
+
+img {
+    width: 100%;
+    height: 700px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bg-3 {
+    background-color: #7757E8;
+}
+
+.bg-1 {
+    background: #1D132C;
+}
+
+.bg-2 {
+    background: #211535;
+}
+
+.link:hover {
+    color: #7757E8 !important;
+}
+
+.link {
+    color: #000;
+    transition: color 0.3s ease;
 }
 
 .button1 {
@@ -32,4 +68,123 @@ ul li a {
 
 .mb-6 {
     margin-bottom: 5rem;
+}
+
+
+.nailart-recommendations {
+    background: #1D132C;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.nailart-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.nailart-card:hover {
+    transform: translateY(-5px);
+    background-color: #211535;
+}
+
+.nailart-card {
+    height: 650px;
+}
+
+.nailart-card img {
+    width: 100%;
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.nailart-card h3 {
+    color: #7757E8;
+}
+
+.nailart-card p {
+    color: #C5C5C5;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    nav {
+        gap: 0;
+        padding-left: 0 !important;
+    }
+
+    nav h2 {
+        font-size: 1.3rem;
+    }
+
+    nav .button1 {
+        font-size: 0.8rem !important;
+        padding: 0.5rem 1rem !important;
+        display: none;
+    }
+
+    .abc h1 {
+        font-size: 3rem !important;
+    }
+
+    footer .d-flex {
+        flex-direction: column;
+    }
+
+    footer .d-flex .link {
+        margin-bottom: 1rem;
+    }
+
+    footer .bullet {
+        display: none;
+    }
+
+    .nailart-card img {
+        height: 250px;
+    }
+
+    .nailart-card {
+        height: 550px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    nav h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul li a {
+        font-size: 1.25rem;
+    }
+
+    nav h2 {
+        font-size: 1.5rem;
+    }
+
+    .nailart-card img {
+        height: 220px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    nav h2 {
+        font-size: 1.75rem;
+    }
+
+    .nailart-card img {
+        height: 300px;
+    }
 }
