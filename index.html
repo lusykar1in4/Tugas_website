@@ -109,5 +109,16 @@
             <p class="text-white mb-0 mt-3 mt-md-0">Image belongs to <a href="https://unsplash.com" class="text-decoration-none text1">Unsplash.com</a></p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript to control carousel behavior
+        const carousel = document.getElementById('carouselExample');
+        // Start the carousel automatically on load
+        const carouselInstance = new bootstrap.Carousel(carousel, {
+          interval: 3000, // Change image every 3 seconds
+          ride: 'carousel' // Enable automatic cycling
+        });
+  </script>
 </body>
 </html>
