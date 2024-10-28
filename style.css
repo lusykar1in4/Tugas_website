@@ -21,3 +21,7 @@ ul li a {
     border-radius: 4.75rem;
     border: none;
 }
+
+.text-center .cf1 {
+    font-size: 4.7rem !important;
+}
