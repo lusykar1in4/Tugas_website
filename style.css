@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(180deg, #180745 0.05%, #000 99.95%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.text1 {
+    color: #7757e8;
+}
+
+.button1 {
+    background-color: #7757E8;
+    border-radius: 4.75rem;
+    border: none;
+}

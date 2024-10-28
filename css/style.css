@@ -1,0 +1,42 @@
+
+body {
+    background: linear-gradient(180deg, #1B0745 0.05%, #000 99.95%);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 577px) {
+    ul li {
+        font-size: 1rem;
+    }
+
+    main > p {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    ul li {
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+/* @media (min-width: 992px) {
+    * {
+        font-size: 1rem;
+    }
+} */
+
+.subs-box {
+    background-color: red;
+}
+
+.bg-1 {
+    background: #1D132C;
+}
